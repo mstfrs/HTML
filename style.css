@@ -1,6 +1,13 @@
+*{
+    font-family: 'Trebuchet MS';
+}
 p
 {
     color: brown;
+    border: 5px solid blue;
+    padding: 5px; 
+    margin: 30px;       
+
 }
 
 h1{
