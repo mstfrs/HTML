@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 2;
+    padding: 3px;
+    
+}
+
+#title{
+    font-size: 4.2rem;
+    font-weight: 150;
+}
+h3{
+    font-size: 1.5rem;
+    font-weight: 150;
+}
+p{
+    font-size: 1.5rem;
+}
+
+input, select, label{
+    font-size: 1rem;
+    padding: 2px;
+}
+#submit{
+    border: none;
+}
