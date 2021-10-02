@@ -1,0 +1,33 @@
+table,th,td{
+    border: 1px solid black;
+}
+table{
+    width: 100%;
+    background-image: url("https://picsum.photos/id/684/600/400");
+    border-collapse: collapse;
+}
+th{
+    height: 35px;
+}
+td{
+    text-align: center;
+    height: 30px;
+    vertical-align: middle;
+padding: 15px;
+}
+/* tr:nth-child(even){
+    background-color: gray;
+}
+tr:nth-child(odd){
+    background-color: green;
+} */
+tr:nth-child(n+3){
+    background-color: green;
+}
+td:hover{
+    background-color: hotpink;
+}
+th:hover{
+    background-color: black;
+    color: white;
+}

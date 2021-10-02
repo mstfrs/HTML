@@ -1,0 +1,32 @@
+ol{
+    list-style-type: "\1F499";
+}
+
+ul{
+    margin: 5px;
+    padding: 5px;
+}
+ul li{
+    border: 1px solid red;
+    margin: 10px;
+    border-radius: 35px;
+    list-style-type: none;
+    border-left: 20px solid;
+}
+li:hover{
+    background-color: gray;
+}
+ul li:before{
+    content: "\2764";
+    color: red;
+}
+#div1{
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+}
+#main{
+    background-color: rgb(215, 218, 56);
+    border-radius: 25px;
+    padding: 10px;
+}

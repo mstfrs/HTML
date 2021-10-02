@@ -1,0 +1,30 @@
+div{
+    width: 200px;
+    height: 100px;
+    background-color: coral;
+    margin: 5px;
+    color:white;
+    font-size: 25px;
+    display: inline-block;
+
+}
+#box1{
+
+}
+
+#box2{
+    /* visibility: hidden; */
+
+}
+
+#box3{
+
+}
+span{
+display: block;
+}
+
+a{
+/* display: block; */
+
+}
