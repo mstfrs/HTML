@@ -1,0 +1,91 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#menuicon{
+    width: 2rem;
+    height: 2rem;
+}
+.lileft{
+    list-style-type: none;
+    display: inline;
+    padding: 0.5rem;
+  
+}
+.lirigth{
+    list-style-type: none;
+    display: inline;
+    padding: 0.5rem;
+}
+header{
+    position: relative;
+   
+}
+#lefthead{
+    position: absolute;
+    left: 0,5rem;    
+    padding: 20px 5px;
+    
+}
+#rigthhead{
+    position: absolute;
+    right: 1rem;
+    padding: 10px 5px;   
+  
+}
+header a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    color: gray ;
+}
+
+#Signin{
+    padding: 3px;
+    width: 5rem;
+    height: 1.5rem;
+    background-color: #4285F4;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+#container{
+    border: 1px solid black;
+    position: relative;
+    top: 15rem;
+    text-align: center;
+   
+}
+#googlelogo{
+    width: 25%;
+    height: 4%;
+    padding: 10px auto;
+}
+#searchbar{
+    width: 40%;
+    height: 2rem;
+    border-radius: 20px;
+    border: 1px solid gray;
+    margin: auto;
+
+}
+#bar-icon{
+    border: 2px solid red;
+    vertical-align: middle;
+
+}
+#magnify{
+    float: left;
+}
+#microphone{
+    width: 1rem;
+    height: 1.2rem;
+    /* float: right; */
+    margin-right: 1.2em;
+    margin-top: 0.7em;
+    float: right;
+}
+
+
+
