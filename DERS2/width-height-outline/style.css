@@ -1,0 +1,64 @@
+body{
+    background-color: #ccc;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#main-content{
+    background-color: #ffffff;
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 2%;
+}
+.auto-width{
+    width: auto;
+    height: auto;
+    background-color: yellow;
+    margin-bottom: 10px;
+    border: 5px solid blue;
+    border-radius: 20px;
+    outline: 5px solid red;
+    outline-offset: 10px;
+    padding: 15px;
+    
+}
+.length-width{
+    width: 50px;
+    height: 50px;
+    background-color: cyan;
+    margin-bottom: 10px;
+
+}
+.percent-width{
+    width: 70%;
+    height: 10%;
+    background-color: rgb(20, 223, 54);
+    margin-bottom: 10px;
+
+}
+.initial-width{
+    width: initial;
+    height: initial;
+    background-color: rgb(196, 240, 37);
+    margin-bottom: 10px;
+
+}
+.inherit-width{
+    width: inherit;
+    height: inherit;
+    background-color: chocolate
+    
+
+}
+.max-width{
+    max-width: 400px;
+    max-height: 200px;
+    background-color: lightcoral;
+    margin-bottom: 10px;
+}
+.min-width{
+    min-width: 100px;
+    min-height: 100px;
+    background-color: gray;
+}
