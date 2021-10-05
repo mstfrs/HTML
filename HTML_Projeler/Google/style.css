@@ -6,6 +6,12 @@
 #menuicon{
     width: 2rem;
     height: 2rem;
+    vertical-align: middle;
+    opacity: 0.5;
+}
+#menuicon:hover{
+    opacity: 1;
+
 }
 .lileft{
     list-style-type: none;
@@ -19,72 +25,164 @@
     padding: 0.5rem;
 }
 header{
-    position: relative;
+    display: block;
+    padding: 15px 15px 0px 15px;  
    
 }
 #lefthead{
-    position: absolute;
-    left: 0,5rem;    
-    padding: 20px 5px;
+    float: left;
     
 }
 #rigthhead{
-    position: absolute;
-    right: 1rem;
-    padding: 10px 5px;   
+    float: right; 
   
 }
 header a{
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.8rem;
-    color: gray ;
+    color: black ;
 }
 
-#Signin{
+#signin{
     padding: 3px;
-    width: 5rem;
-    height: 1.5rem;
+    width: 4rem;
+    height: 1.8rem;
     background-color: #4285F4;
     color: white;
     border-radius: 5px;
     border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
 }
-#container{
-    border: 1px solid black;
-    position: relative;
+#signin:hover{
+    text-decoration: none;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+#search{
+    /* border: 1px solid black; */
     top: 15rem;
     text-align: center;
    
 }
+.clear{
+    clear: both;
+}
 #googlelogo{
     width: 25%;
     height: 4%;
-    padding: 10px auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
 }
 #searchbar{
-    width: 40%;
-    height: 2rem;
+    width: 450px;
+    height: 40px;
     border-radius: 20px;
-    border: 1px solid gray;
-    margin: auto;
-
+    border: 1px solid rgb(204, 203, 203);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+ }
+ #searchbar:hover{
+    box-shadow: 3px 3px 5px lightgray;
 }
-#bar-icon{
-    border: 2px solid red;
-    vertical-align: middle;
 
-}
-#magnify{
-    float: left;
+#magnify{   
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 8px;
+    right: 440px;  
+    opacity: 50%;
 }
 #microphone{
-    width: 1rem;
-    height: 1.2rem;
-    /* float: right; */
-    margin-right: 1.2em;
-    margin-top: 0.7em;
+    height: 25px;
+    width: 20px;
+    position: relative;
+    top: 8px;
+    right: 60px; 
+}
+.buttons{
+    text-align: center;
+    margin-top: 20px;
+    
+    
+}
+#searchbutton{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    color: #5f6368;
+    border: hidden;
+    margin-right: 10px;
+    
+}
+#searchbutton:hover{
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid rgb(204, 203, 203);
+
+}
+#luckybutton{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    color: #5f6368;
+    border: hidden;
+
+}
+#luckybutton:hover{
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid rgb(204, 203, 203);
+}
+#other{
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+footer{
+    background-color: #f2f2f2;
+    display: block;
+    padding: 0px 15px 15px 15px;
+    width: 100%;
+    height: 80px;
+    line-height: 40px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    position: fixed;
+    bottom: 0;
+
+    
+
+}
+#leftfoot{
+    float: left;
+}
+#rightfoot{
     float: right;
+       
+}
+footer a{
+    text-decoration: none;
+    color: gray;
+    padding-right: 20px;
+   
+}
+#country{
+    border-bottom:1px solid rgb(219, 218, 218);
+    font-size: 1rem;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 
