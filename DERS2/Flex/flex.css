@@ -1,0 +1,21 @@
+body{
+    background-color: white;
+    color: black;
+}
+.flex-container{
+    border: 5px solid violet;
+    height: 500px;
+    display: flex;
+
+    /* flex-direction:row;
+    flex-wrap: wrap; */
+
+    /* flex-flow: column wrap; */ 
+    justify-content: space-evenly
+}
+.flex-items{
+    background-color: cyan;
+    border: 1px solid green;
+    height: 50px;
+    width: 50px;
+}
