@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheckOut</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+    <h1 id="title">CheckOut</h1>
+    <main>
+        <form action="aaa">
+            <div id="contact_info">
+                <h1>Contact Information</h1>
+                <div class="infos">
+                    <label for="email">Email</label>
+                    <div class="input-area">
+                        <input type="email" id="email" placeholder="Enter Your email..." required>
+                        <span class="material-icons">
+                            email
+                            </span>
+                    </div>
+                </div>
+                <div class="infos">
+                    <label for="phone">Phone</label>
+                    <div class="input-area">
+                        <input type="tel" id="phone" placeholder="Enter your phone..." required>
+                        <span class="material-icons">
+                            phone
+                            </span>
+                    </div>
+                </div>
+            </div>
+            <div id="shipping_info">
+                <h1>Shipping address</h1>
+                <div class="infos">
+                    <label for="text">Full Name</label>
+                    <div class="input-area">
+                        <input type="fullname" id="fullname" placeholder="Enter Your Full name..." required>
+                        <span class="material-icons">
+                            person
+                            </span>
+                    </div>
+                </div>
+                <div class="infos">
+                    <label for="address">Address</label>
+                    <div class="input-area">
+                        <input type="text" id="address" placeholder="Enter your address..." required>
+                        <span class="material-icons">
+                            home
+                            </span>
+                    </div>
+                </div>
+                <div class="infos">
+                    <label for="city">City</label>
+                    
+                    <div class="input-area">
+                        <input type="text" id="city" placeholder="Enter your city..." required>
+                        <span class="material-icons">location_city</span>
+                    </div>
+                </div>
+                <div class="infos">
+                    <label for="country">Country</label>
+                    <div class="input-area">
+                        <select name="country" id="country">
+                            <option value="Turkey">Turkey</option>
+                            <option value="Germany">Germany</option>
+                            <option value="USA">USA</option>
+                            <option value="Canada">Canada</option>
+                            <option value="UK">UK</option>
+                        </select>
+                        <span class="material-icons">
+                            public
+                            </span>
+                    </div>
+                </div>
+                <div class="infos">
+                    <label for="postcode">Post Code</label>
+                    <div class="input-area">
+                        <input type="text" id="postcode" placeholder="Enter your postal code..." required>
+                        <span class="material-icons">
+                            dynamic_feed
+                            </span>
+                    </div>
+                </div>
+                <label for="reminder">See this information next time</label>
+            </div>
+        </form>
+        <div id="product-preview">
+            <div id="product-panel">
+                <div class="products">
+                    <img src="./IMG/photo1.png" alt="">
+                    <div class="product-info">
+                        <h2>Vintage Backbag</h2>
+                        <p>$54.99 <span class="oldprice">$94.99</span></p>
+
+                        <div class="quantity-control">
+                            <button>
+                                <span class="material-icons">
+                                    remove_circle_outline
+                                    </span>
+                            </button>
+                            <p>1</p>
+                            <button>
+                                <span class="material-icons">
+                                    add_circle_outline
+                                    </span>
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div id="product-panel">
+                <div class="products">
+                    <img src="./IMG/photo2.png" alt="">
+                    <div class="product-info">
+                        <h2>Levi Shoes</h2>
+                        <p>$74.99 <span class="oldprice">$124.99</span></p>
+
+                        <div class="quantity-control">
+                            <button>
+                                <span class="material-icons">
+                                    remove_circle_outline
+                                    </span>
+                            </button>
+                            <p>1</p>
+                            <button>
+                                <span class="material-icons">
+                                    add_circle_outline
+                                    </span>
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div>
+            <button id="send">
+                Continue
+            </button>
+        </div>
+    </main>
+</body>
+</html>
