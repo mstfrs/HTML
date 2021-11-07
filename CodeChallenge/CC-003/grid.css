@@ -1,0 +1,164 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+#container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,200px);
+    grid-gap: 2rem;
+    margin: 15px;
+    font-family: 'Varela Round', sans-serif;
+    
+
+    
+}
+span{
+    color: orangered;
+}
+.content{
+    border: 1px solid rgb(211, 205, 205);
+    border-radius: 10px;
+    /* background-color: rgba(86, 86, 167, 0.719); */
+    font-size: 2.5rem;
+    padding-left: 1rem;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    text-align: center;
+   
+}
+.content1{
+    grid-column: 1/5;
+    background-image: url("./img/banner2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+    height: ;
+  
+       
+}
+.content2{
+    grid-row: 2/4;
+   
+   
+    font-size: 1rem;
+       
+}
+.content3{
+    grid-row: 2/4;
+       
+}
+.content4{
+    grid-row: 2/4;
+       
+}
+.content5{
+    grid-row: 2/5;
+    background-image: url("./img/taksit.png");
+    background-position: center;
+    background-repeat: no-repeat;
+       
+}
+.content6{
+    grid-column: 1/4;
+    background-image: url("./img/sale.jpg");
+    background-position: center;
+    
+       
+}
+.content7{
+    grid-column: 1/5;
+    height: 100px;
+    
+}
+
+img{
+    width: 10rem;
+    border-radius: 25px;
+    border-radius: 1px solid black;
+
+}
+
+.sale{
+    display: inline-block;
+    font-size: 1.3rem;
+    border-radius: 20px;
+    background-color: orangered;
+    padding:0.3rem 0.8rem;
+    color: white;
+}
+.product-name{
+    color: gray;
+}
+
+.product{
+    color: black;
+    padding-top: 10px;
+    font-size: 1rem;
+}
+.price{
+    color: blue;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.tl{
+    color: blue;
+    font-size: 1rem;
+}
+
+.footer{
+    color: orangered;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    text-align: center;
+    /* padding: 2rem 0rem; */
+    
+    
+   
+}
+.fas{
+    background-color: orangered;
+    width: 3rem;
+    height: 3rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-right: 2rem;
+
+    align-items: center;
+    text-align: center;
+    border-radius: 50px;
+    
+}
+.flinks{
+    display: flex;
+   
+
+    align-items: center;
+    text-align: center;
+    
+}
+.header-links{
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+   
+}
+
+.header-links li{
+    background-color: orangered;
+    border-radius: 2rem;
+    padding: 0.3rem 0.5rem;
+}
+
+.header-links li:hover{
+    background-color: white;
+    color: orangered;
+    cursor: pointer;
+}
