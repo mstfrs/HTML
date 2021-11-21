@@ -1,0 +1,19 @@
+.rotate {
+  transform: rotate(90deg);
+  height: fit-content;
+  width: auto;
+  margin-top: 4rem;
+  margin-left: -15px;
+}
+
+img {
+  box-shadow: 10px 10px 30px grey;
+}
+.dark {
+  background-color: black;
+  color: white;
+}
+.light {
+  background-color: white;
+  color: black;
+}
